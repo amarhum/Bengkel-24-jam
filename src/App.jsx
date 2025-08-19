@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/home";
-import JasaTowing from "./pages/towing";
+import Home from "./pages/Home";
+import JasaTowing from "./pages/Towing";
 import InspeksiMobil from "./pages/Inspeksi";
 import Service24Jam from "./pages/Service";
 import Navbar from "./components/Navbar";
