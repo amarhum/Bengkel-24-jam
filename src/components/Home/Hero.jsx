@@ -1,6 +1,6 @@
 import heroImg from "../../assets/hero.png";
 import logoWa from "../../assets/logoWa.png";
-import bawah from "../../assets/ellipse2.svg";
+import bawah from "../../assets/Ellipse2.svg";
 
 const Hero = () => {
   return (

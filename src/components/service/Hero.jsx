@@ -1,5 +1,4 @@
 import heroImg from "../../assets/personBanner2.png";
-import logoWa from "../../assets/logoWa.png";
 import bawah from "../../assets/service-bawah.svg";
 
 const Hero = () => {
