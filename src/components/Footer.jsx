@@ -1,5 +1,5 @@
 import { FaInstagram, FaTiktok, FaFacebookF } from "react-icons/fa";
-import bawah from "../assets/ellipse2.svg";
+import bawah from "../assets/Ellipse2.svg";
 
 const Footer = () => {
   return (
