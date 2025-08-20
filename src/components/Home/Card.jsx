@@ -35,7 +35,7 @@ const Card = () => {
           <div
             data-aos="fade-up"
             key={index}
-            className="bg-white shadow-md rounded-xl p-6 border border-purple-200 hover:shadow-lg transition"
+            className="bg-white shadow-md rounded-xl p-6 border border-[#3500CC] hover:shadow-lg transition"
           >
             <div className="flex flex-col items-left mb-4">
               <img src={item.img} alt={item.title} className="w-10 h-10 mr-3" />

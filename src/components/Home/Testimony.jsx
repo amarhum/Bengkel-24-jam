@@ -60,13 +60,11 @@ const Testimony = () => {
     768: { slidesPerView: 2 },
     1024: { slidesPerView: 3 },
   }}
-  className="pb-16" // kasih space lebih buat pagination
+  className="pb-16"
 >
   {data.map((item, index) => (
     <SwiperSlide key={index}>
-      <div className=" bg-gradient-to-b from-purple-100 to-white border border-purple-300 rounded-xl pt-20 pb-6 px-6 shadow-md flex flex-col items-center text-center min-h-[320px]">
-        
-        {/* Foto keluar di atas */}
+      <div data-aos="fade-up" className=" bg-gradient-to-b from-purple-100 to-white border border-purple-300 rounded-xl pt-20 pb-6 px-6 shadow-md flex flex-col items-center text-center min-h-[320px]">
         <div className=" z-10">
           <img
             src={item.img}

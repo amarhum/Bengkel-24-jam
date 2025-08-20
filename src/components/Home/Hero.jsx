@@ -6,11 +6,11 @@ const Hero = () => {
   return (
     <section className="bg-primary xl:h-[1090px] w-full pt-[149px] pb-20 relative">
       <div className="container mx-auto md:flex-row justify-between lg:py-4 lg:px-6 py-3 px-4">
-        <div data-aos="fade-right" className="text-left xl:w-[657px] lg:w-[550px]">
-            <div>
-                <p className="underline underline-offset-8 text-[24px] leading-[34px] text-white mb-[64px]">Home</p>
-                <h1 className="text-5xl font-extrabold text-white mb-[64px]">Mecha Auto Plan</h1>
-                <p className="text-lg text-gray-200 leading-relaxed mb-[64px]">
+        <div data-aos="fade-right" className="text-left xl:w-[657px] md:w-full lg:w-[550px] ">
+            <div className="">
+                <p className="underline underline-offset-8 text-[24px] leading-[34px] text-white mb-[24px] md:mb-[48px] lg:mb-[64px]">Home</p>
+                <h1 className="lg:text-5xl xl:text-[96px] md:text-[70px] text-[32px] md:leading-[90px] font-extrabold text-white mb-[24px] md:mb-[48px] lg:mb-[64px]">Mecha Auto Plan</h1>
+                <p className="text-lg text-gray-200 leading-relaxed mb-[24px] md:mb-[48px] lg:mb-[64px]">
                     Selamat datang di Mecha Auto Plan. Daftar atau masuk untuk booking servis,
                     melacak pengerjaan, dan melihat seluruh riwayat perawatan mobil
                     Anda dalam satu genggaman.

@@ -8,7 +8,7 @@ const Booking = () => {
     <section className="bg-white py-20 px-6 text-center">
       {/* Judul */}
       <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
-        Rasakan Bedanya Servis di ACELERA
+        Rasakan Bedanya Servis di MECHA AUTO PLAN
       </h2>
 
       {/* Deskripsi */}
